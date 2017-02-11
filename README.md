@@ -19,3 +19,15 @@ Project task management written in react/redux
 Client is written in react/redux; server will be written in typescript using 
 express.js + pgsql.
 
+## Deploying
+
+To start it, do the following:
+```
+$ git clone https://github.com/yhaskell/task-manager.git 
+$ cd task-manager
+$ npm install 
+$ npm start
+```
+
+That's all.
+
