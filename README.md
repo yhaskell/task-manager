@@ -2,7 +2,7 @@
 
 Project task management written in react/redux
 
-## Idea
+## Features
 
 1. Tasks are sorted by projects
 2. Users can add tasks, mark them as complete, remove them
@@ -16,6 +16,6 @@ Project task management written in react/redux
    a sum of subtasks progress.
 
 ## Technologies
-Client is written in react/redux; server is written in postgres + node.js (not yet).
-
+Client is written in react/redux; server will be written in typescript using 
+express.js + pgsql.
 
