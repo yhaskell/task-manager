@@ -44,7 +44,8 @@ jspm_packages
 /coverage
 
 # production
-/build
+/**/build
+/deploy
 
 # misc
 .DS_Store
