@@ -1,0 +1,17 @@
+{
+    "exclude": [
+        "node_modules",
+        "../node_modules/@types/react/index.d.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "skipLibCheck": false,
+        "skipDefaultLibCheck": false,
+        "outDir": "build",
+        "lib": [ "dom", "es7" ],
+        "experimentalDecorators": true
+    }
+}
