@@ -37,6 +37,7 @@
     "test": "yarn test:client && yarn test:server",
 
     "deploy": "yarn build && cp -r frontend/build deploy/static && cp backend/server.js deploy/server.js",
+    "docker": "docker build -t task-manager .",
     
     "eject": "cd frontend && react-scripts eject"
   }

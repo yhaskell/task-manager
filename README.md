@@ -21,13 +21,10 @@ express.js + pgsql.
 
 ## Deploying
 
-To start it, do the following:
-```
-$ git clone https://github.com/yhaskell/task-manager.git 
-$ cd task-manager
-$ npm install 
-$ npm start
-```
+To start the project in development mode, use `yarn start` command.
+
+Task manager is deployed to the docker image.
+To create it, use `yarn docker` command.
 
 That's all.
 
